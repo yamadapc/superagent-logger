@@ -3,7 +3,7 @@ superagent-logger
 [![npm downloads](http://img.shields.io/npm/dm/superagent-logger.svg)](https://www.npmjs.org/package/superagent-logger)
 [![npm version](http://img.shields.io/npm/v/superagent-logger.svg)](https://www.npmjs.org/package/superagent-logger)
 - - -
-A superagent middleware for adding NPM-style logging. Useful for debugging
+superagent middleware for adding NPM-style logging. Useful for debugging
 HTTP-clients.
 
 ## Installing
