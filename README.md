@@ -4,7 +4,7 @@ superagent-logger
 [![npm version](http://img.shields.io/npm/v/superagent-logger.svg)](https://www.npmjs.org/package/superagent-logger)
 - - -
 superagent middleware for adding NPM-style logging. Useful for debugging
-HTTP-clients.
+HTTP clients.
 
 ## Installing
 This package is published to NPM as `superagent-logger`.
@@ -30,7 +30,7 @@ If you also want to log requests when they're fired, use the `outgoing` option:
 request.get('https://github.com/').use(logger({ outgoing: true })).end();
 ```
 
-![screeshot2](/screenshot1.png)
+![screeshot2](/screenshot2.png)
 
 ## License
 This code is licensed under the MIT license for Pedro Tacla Yamada.
