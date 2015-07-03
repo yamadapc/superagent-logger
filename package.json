@@ -1,6 +1,6 @@
 {
   "name": "superagent-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A superagent middleware for adding NPM-style logging. Useful for debugging HTTP-clients.",
   "main": "lib/index.js",
   "scripts": {
