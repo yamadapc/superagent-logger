@@ -24,13 +24,29 @@ This will produce the following output:
 
 ![screeshot1](/screenshot1.png)
 
-If you also want to log requests when they're fired, use the `outgoing` option:
+## Options
+
+### Outgoing
+
+If you want to log requests when they're fired, use the `outgoing` option:
 ```javascript
 // Will log when the request is triggered:
 request.get('https://github.com/').use(logger({ outgoing: true })).end();
 ```
 
 ![screeshot2](/screenshot2.png)
+
+### Timestamp
+
+To log a request timestamp with each log entry, use the `timestamp` option:
+```javascript
+// Will log when the request is triggered:
+request.get('https://github.com/').use(logger({ timestamp: true })).end();
+```
+
+```
+HTTPS GET   [2015-12-03T18:09:19.476Z] 200 https://github.com/ (9219ms)
+```
 
 ## License
 This code is licensed under the MIT license for Pedro Tacla Yamada.
