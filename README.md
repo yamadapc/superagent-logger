@@ -50,3 +50,6 @@ HTTPS GET   [2015-12-03T18:09:19.476Z] 200 https://github.com/ (9219ms)
 
 ## License
 This code is licensed under the MIT license for Pedro Tacla Yamada.
+
+## Donations
+Would you like to buy me a beer? Send bitcoin to 3JjxJydvoJjTrhLL86LGMc8cNB16pTAF3y
